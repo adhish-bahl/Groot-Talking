@@ -1,28 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 .inoutput {
     padding: 1rem;
-    border: .2rem #726245 solid;
+    border: .2rem #FBBF24 solid;
     height: 10rem;
-    width: 30rem;
-    font-size: 1.5rem;
+    width: 50rem;
+    font-size: 1.3rem;
     margin: 2rem;
-    background-color: #c7a56b;
+    background-color: #fbe450;
     color: black;
     border-radius: 2rem;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: white;
-    font-family: 'Dancing Script', cursive;
+    background-color: #0a71b6;
+    font-family: 'Merriweather', serif;
     margin: 0px;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 
 .footer, .navigator {
-    background-color: #c7a56b;
+    background-color: #fbe450;
     text-align: center;
     padding: 2rem;
 }
@@ -36,6 +36,7 @@ h1 {
 .footer h3 p{
     /* text-align: center; */
     padding: 0rem 25rem;
+    box-sizing: border-box;
 }
 
 body p {
@@ -44,12 +45,11 @@ body p {
 }
 
 #transbtn {
-    background-color: #c7a56b;
+    background-color: #fbe450;
     width: 10rem;
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     border-radius: 2rem;
-    font-family: 'Dancing Script', cursive;
     /* margin: 2rem; */
 }
 
@@ -58,6 +58,8 @@ body p {
     margin: 0px;
     padding: 0px;
     margin-bottom: 1rem;
+    /* width: 1rem; */
+    /* display: inline-block; */
 }
 
 .navigator {
@@ -66,4 +68,54 @@ body p {
 
 .footer {
     border-radius: 1rem 1rem 0rem 0rem ;
+}
+
+@media screen and (max-width: 1300px) {
+    .footer h3 p{
+        padding: 0rem 5rem;
+        box-sizing: border-box;
+    }
+
+    .navigator p img{
+        width: 15rem;
+    }
+
+    .inoutput {
+        padding: 1rem;
+        border: .2rem #FBBF24 solid;
+        height: 10rem;
+        width: 28rem;
+        font-size: 1rem;
+        margin: 2rem;
+        background-color: #fbe450;
+        color: black;
+        border-radius: 2rem;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer h3 p{
+        padding: 0rem 0rem;
+        box-sizing: border-box;
+    }
+
+    .navigator p img{
+        width: 9rem;
+    }
+
+    .inoutput {
+        padding: 1rem;
+        border: .2rem #FBBF24 solid;
+        height: 10rem;
+        width: 13rem;
+        font-size: 1rem;
+        margin: 2rem;
+        background-color: #fbe450;
+        color: black;
+        border-radius: 2rem;
+        text-align: center;
+        box-sizing: border-box;
+    }
 }
