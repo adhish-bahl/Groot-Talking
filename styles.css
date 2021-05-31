@@ -1,28 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 .inoutput {
     padding: 1rem;
-    border: .2rem #FBBF24 solid;
+    border: .2rem #726245 solid;
     height: 10rem;
-    width: 50rem;
-    font-size: 1.3rem;
+    width: 30rem;
+    font-size: 1.5rem;
     margin: 2rem;
-    background-color: #fbe450;
+    background-color: #c7a56b;
     color: black;
     border-radius: 2rem;
     text-align: center;
-    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
 }
 
 body {
-    background-color: #0a71b6;
-    font-family: 'Merriweather', serif;
+    background-color: white;
+    font-family: 'Dancing Script', cursive;
     margin: 0px;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .footer, .navigator {
-    background-color: #fbe450;
+    background-color: #c7a56b;
     text-align: center;
     padding: 2rem;
 }
@@ -45,11 +45,12 @@ body p {
 }
 
 #transbtn {
-    background-color: #fbe450;
+    background-color: #c7a56b;
     width: 10rem;
     font-weight: bolder;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     border-radius: 2rem;
+    font-family: 'Dancing Script', cursive;
     /* margin: 2rem; */
 }
 
